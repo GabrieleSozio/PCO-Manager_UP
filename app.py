@@ -65,8 +65,8 @@ def extract_data_from_pdf(pdf_file):
     data["Company Profile"] = None
     if match_denominazione:
         denominazione_str = match_denominazione.group(1)
-        # Rimuoviamo gli spazi dalla stringa estratta e standardizziamo 'and' in '&' per facilitare il match
-        denominazione_str_clean = denominazione_str.lower().replace(" ", "").replace("and", "&")
+        # Rimuoviamo gli spazi dalla stringa estratta e standardizziamo 'and' in '&' e 'bhavya' in 'bhauya' per facilitare il match
+        denominazione_str_clean = denominazione_str.lower().replace(" ", "").replace("and", "&").replace("bhavya", "bhauya")
         
         for company in COMPANIES_LIST:
             # Rimuoviamo gli spazi e standardizziamo anche il nome in lista
