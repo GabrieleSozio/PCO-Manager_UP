@@ -13,7 +13,7 @@ st.markdown("Carica i file PDF delle prenotazioni per estrarre automaticamente i
 # Costanti e Liste
 COMPANIES_LIST = [
     'Marghera', 'Esquilino', 'Gioberti', 'Cavour191', 'World Travel', 
-    'Rome Aurea Tours', 'Sharkei', 'Trevio', 'Alatri40', 'Bhauya Aviations', 
+    'Roma Aurea Tours', 'Sharkei', 'Trevio', 'Alatri40', 'Bhauya Aviations', 
     'SVM Vacanze', 'Castelli Viaggi', 'Tours & Tours', 'Bella Vita Food Tours', 
     'Navigamondo', 'First Choice', 'Branduoo', 'Karma', 'Aquila'
 ]
